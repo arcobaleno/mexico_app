@@ -1,4 +1,12 @@
 MexicoApp::Application.routes.draw do
+
+  get "static_pages/home"
+  get "static_pages/our_mission"
+  get "static_pages/members"
+  get "static_pages/directions"
+  get "static_pages/contact_info"
+  get "static_pages/speakers"
+  get "static_pages/networking"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
