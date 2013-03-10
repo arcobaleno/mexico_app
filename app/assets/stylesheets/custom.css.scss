@@ -114,10 +114,14 @@ top:5px;
 .footer {
   background-color:#C0C0C0;
   height:300px;
+  margin-right: auto;
+    margin-left: auto;
 }
 
 .bottom {
     border-radius:40px;
+    margin-right: auto;
+    margin-left: auto;
   -moz-border-radius:25px; /* Old Firefox */
 }
 /* Carousel */
@@ -139,6 +143,15 @@ top:5px;
 }
 .carousel {
 	margin-top:1%;
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-inner {
+}
+
+.carousel-control {
 }
 
 /* Directions */
