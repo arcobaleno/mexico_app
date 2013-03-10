@@ -2,7 +2,8 @@ MexicoApp::Application.routes.draw do
   
   root :to => 'static_pages#home'
 
-  match "mexico_profile" => 'static_pages#mexico_profile'
+  match "home" => "static+pages#home"
+  match "mexico_profile" => "static_pages#mexico_profile"
   match "about_babson" => "static_pages#about_babson"
   match "team" => "static_pages#team"
   match "about" => "static_pages#about"
