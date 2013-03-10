@@ -1,5 +1,9 @@
 @import "bootstrap";
 
+/* mixins, variables, etc. */
+
+$red: #C00000;
+
 /* universal */
 
 html {
@@ -72,18 +76,25 @@ margin-top:60px;
 margin-right:100px;
 margin-left:100px;
 opacity:2.0;
-color:#C00000;
+background-image: none;
 }
 
-.navbar {
   .navbar-inner {
-    background-color: #C00000;
+    background: $red;
     width: 700px;
-  }
+    filter: none;
 }
+
+.navbar .nav > li > a {
+  text-shadow: none;
+  color: #FFFFFF;
+
+  }
 
 .nav {
 padding-left:50px;
+text-shadow: none;
+
 }
 
 #logo {
@@ -147,7 +158,8 @@ top:5px;
 
 #mp {
   font-family: bold;
-  border: solid 5px;
+  border: solid 2px;
+  border-color: $red;
 }
 
 #flag {
