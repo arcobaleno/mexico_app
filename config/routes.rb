@@ -1,14 +1,15 @@
 MexicoApp::Application.routes.draw do
+  
+  root :to => 'static_pages#home'
 
-  get "static_pages/home"
-  get "static_pages/mexico_profile"
-  get "static_pages/about_babson"
-  get "static_pages/team"
-  get "static_pages/about"
-  get "static_pages/event_one"
-  get "static_pages/members"
-  get "static_pages/directions"
-  get "static_pages/contact_info"
+  match "mexico_profile" => 'static_pages#mexico_profile'
+  match "about_babson" => "static_pages#about_babson"
+  match "team" => "static_pages#team"
+  match "about" => "static_pages#about"
+  match "event_one" => "static_pages#event_one"
+  match "members" => "static_pages#members"
+  match "directions" => "static_pages#directions"
+  match "contact_info" => "static_pages#contact_info"
   
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -59,7 +60,7 @@ MexicoApp::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
+ 
 
   # See how all your routes lay out with "rake routes"
 
