@@ -152,21 +152,24 @@ top:5px;
 /* Directions */
 
 .map {
-  text-align:center;
-  margin:auto;
-  border:2px solid #a1a1a1;
-  background:#dddddd;
-  width:90%;
-  border-radius:40px;
-  -moz-border-radius:25px; /* Old Firefox */
-  margin-bottom:10px;
+  margin-left:10%;
+}
+
+#location{
+  margin-left:10%;
+}
+
+/* Contact Info */
+
+#contact-info{
+  margin-left:10%;
 }
 
 /* Mexico Profile */
 
 #mp {
   font-family: bold;
-  margin-right:30%;
+  margin-right:100px;
   margin-left:10%;
 }
 
@@ -174,13 +177,20 @@ top:5px;
   width:295px;
   height:197;
   border:solid $green 5px;
-  margin-right: 5%;
+  margin-right: 20%;
   opacity:0.8;
 }
 
 /* About */
 #ap {
   margin-left:10%;
+}
+
+#about-image{
+  width:65%;
+  height:65%;
+  margin-top:10%;
+  margin-left:100px;
 }
 
 /* About Babson College */
