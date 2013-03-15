@@ -3,6 +3,7 @@
 /* mixins, variables, etc. */
 
 $red: #C00000;
+$green: #006600;
 
 /* universal */
 
@@ -33,10 +34,7 @@ textarea {
 /* typography */
 
 .title {
-  position:absolute;
-  top:40px;
-  margin-left:200px;
-
+  margin-left:10%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -73,15 +71,12 @@ li {
 
 .navbar {
 margin-top:60px;
-margin-right:100px;
-margin-left:100px;
-opacity:2.0;
+opacity:0.7;
 background-image: none;
 }
 
   .navbar-inner {
-    background: $red;
-    width: 700px;
+    background: $green;
     filter: none;
 }
 
@@ -171,15 +166,21 @@ top:5px;
 
 #mp {
   font-family: bold;
-  border: solid 2px;
-  border-color: $red;
+  margin-right:30%;
+  margin-left:10%;
 }
 
 #flag {
-  float: right;
   width:295px;
   height:197;
-  border:solid 5px;
+  border:solid $green 5px;
+  margin-right: 5%;
+  opacity:0.8;
+}
+
+/* About */
+#ap {
+  margin-left:10%;
 }
 
 /* About Babson College */
@@ -189,10 +190,26 @@ top:5px;
 }
 
 #about-babson {
+  margin-left:10%;
 }
 
 /* The Team */
 
 .member {
   border: solid 5px;
+}
+
+.team {
+  margin-left:10%;
+  opacity:0.8;
+}
+
+/* Event One */
+
+#event_description {
+  margin-left:10%;
+}
+
+#event_info {
+  margin-top:10%;
 }
