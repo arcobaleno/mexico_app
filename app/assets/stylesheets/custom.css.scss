@@ -106,9 +106,35 @@ top:5px;
 
 /* Footer */
 
-.footer {
+footer {
   background-color:#C0C0C0;
-  height:300px;
+  height:200px;
+  width:100%;
+  margin-top: 45px;
+  padding-top: 5px;
+  color: #999;
+}
+
+footer a {
+  color: #555;
+}  
+
+footer a:hover { 
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 10px;
 }
 /* Carousel */
 
@@ -154,6 +180,7 @@ top:5px;
 
 #contact-info{
   margin-left:10%;
+  margin-bottom:20%;
 }
 
 /* Mexico Profile */
