@@ -4,6 +4,7 @@
 
 $red: #C00000;
 $green: #006600;
+$grey: #BABABA;
 
 /* universal */
 
@@ -77,19 +78,19 @@ li {
 }
 
 .navbar {
-opacity:0.7;
+opacity:1.0;
 background-image: none;
+
 }
 
   .navbar-inner {
-    background: $green;
+    background: $grey;
     filter: none;
 }
 
 .navbar .nav > li > a {
   text-shadow: none;
   color: #FFFFFF;
-
   }
 
 .nav {
@@ -145,10 +146,10 @@ footer ul li {
 /* Carousel */
 
 .banner {
-   border:2px solid #a1a1a1;
+  border:2px solid #a1a1a1;
   background:#dddddd;
-  width:500px;
-  border-radius:40px;
+  width:100%;
+  /* border-radius:20px;
   -moz-border-radius:25px; /* Old Firefox */
 }
 
@@ -156,14 +157,15 @@ footer ul li {
 	margin: auto;
   position:absolute;
   z-index:-1;
-  width:295px;
-  height:197px;
+  width:600px;
+  height:200px;
 }
 .carousel {
 	margin-top:1%;
-  width:50%;
+  width:100%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom:20px;
 }
 
 .carousel-inner {

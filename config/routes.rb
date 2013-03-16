@@ -2,7 +2,7 @@ MexicoApp::Application.routes.draw do
   
   root :to => 'static_pages#home'
 
-  match "home" => "static+pages#home"
+  match "home" => "static_pages#home"
   match "mexico_profile" => "static_pages#mexico_profile"
   match "about_babson" => "static_pages#about_babson"
   match "team" => "static_pages#team"
@@ -11,6 +11,7 @@ MexicoApp::Application.routes.draw do
   match "members" => "static_pages#members"
   match "directions" => "static_pages#directions"
   match "contact_info" => "static_pages#contact_info"
+  match "speakers" => "static_pages#speakers"
   
   # The priority is based upon order of creation:
   # first created -> highest priority.
