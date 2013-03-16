@@ -12,7 +12,6 @@ html {
 }
 
 body {
-  padding-top: 60px;
 }
 
 section {
@@ -69,8 +68,11 @@ li {
 
 /* header */
 
+.header {
+
+}
+
 .navbar {
-margin-top:60px;
 opacity:0.7;
 background-image: none;
 }
@@ -95,7 +97,7 @@ text-shadow: none;
 #logo {
 position:absolute;
 margin-left:10%;
-top:5px;
+top:60px;
 }
 
 #logo:hover {
