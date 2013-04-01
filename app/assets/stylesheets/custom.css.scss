@@ -183,11 +183,13 @@ footer ul li {
 /* Directions */
 
 .map {
+  margin-top:15px;
   margin-left:10%;
 }
 
 #location{
   margin-left:10%;
+  text-align:justify;
 }
 
 /* Contact Info */
@@ -207,9 +209,10 @@ footer ul li {
 }
 
 #flag {
+  margin-top:50px;
   width:295px;
   height:197;
-  border:solid $green 5px;
+  border:solid $grey 5px;
   opacity:0.8;
 }
 
@@ -229,7 +232,8 @@ footer ul li {
 /* About Babson College */
 
 #babson-logo {
- 
+margin-top:80px;
+margin-left:50px;
 }
 
 #about-babson {
@@ -256,5 +260,6 @@ footer ul li {
 }
 
 #event_info {
-  margin-top:10%;
+  margin-top:15px;
+  margin-left:50px;
 }
