@@ -4,7 +4,7 @@
     <!-- Carousel items -->
     <div class="carousel-inner">
       <div class="item active">
-      	<center><%= image_tag("mexico_flag.png", :class => "banner") %></center>
+      	<center><%= image_tag("mexico_flag.jpg", :class => "banner") %></center>
       </div>
       <div class="item">
       	<center><%= image_tag("mexico_flag2.jpg", :class => "banner" ) %></center>
@@ -18,16 +18,16 @@
 
 <div class="row">
   <div class="span3">
-    <%= image_tag("Panel2.png") %>
+    <%= link_to(image_tag("Panel2.png", :class => "box" ), "mexico_profile") %>
   </div>
   <div class="span3">
-    <%= link_to(image_tag("Panel1.png"), "http://www.eventbrite.com/directory") %>
+    <%= link_to(image_tag("Panel1.png", :class => "box" ), "http://www.eventbrite.com/event/5741438798/es2005/?rank=1") %>
   </div>
   <div class="span3">
-    <%= link_to(image_tag("Panel3.png"), "speakers") %>
+    <%= link_to(image_tag("Panel3.png", :class => "box" ), "speakers") %>
   </div>
   <div class="span3">
-    <%= link_to(image_tag("Panel4.png"), "event_one") %>
+    <%= link_to(image_tag("Panel4.png", :class => "box" ), "event_one") %>
   </div>
 
 </div>

@@ -89,12 +89,13 @@ background-image: none;
 }
 
 .navbar .nav > li > a {
+  margin-left:50px;
   text-shadow: none;
   color: #FFFFFF;
   }
 
 .nav {
-padding-left:50px;
+padding-left:10px;
 text-shadow: none;
 
 }
@@ -115,7 +116,7 @@ top:60px;
 
 footer {
   background-color:#C0C0C0;
-  height:200px;
+  height:100px;
   width:100%;
   margin-top: 45px;
   padding-top: 5px;
@@ -158,7 +159,7 @@ footer ul li {
   position:absolute;
   z-index:-1;
   width:600px;
-  height:200px;
+  height:100%;
 }
 .carousel {
 	margin-top:1%;
@@ -172,6 +173,11 @@ footer ul li {
 }
 
 .carousel-control {
+}
+
+/* Home */
+
+.box {
 }
 
 /* Directions */
@@ -197,19 +203,20 @@ footer ul li {
   font-family: bold;
   margin-right:100px;
   margin-left:10%;
+  text-align:justify;
 }
 
 #flag {
   width:295px;
   height:197;
   border:solid $green 5px;
-  margin-right: 20%;
   opacity:0.8;
 }
 
 /* About */
 #ap {
   margin-left:10%;
+  text-align:justify;
 }
 
 #about-image{
@@ -227,6 +234,7 @@ footer ul li {
 
 #about-babson {
   margin-left:10%;
+  text-align:justify;
 }
 
 /* The Team */
@@ -243,6 +251,7 @@ footer ul li {
 /* Event One */
 
 #event_description {
+  text-align:justify;
   margin-left:10%;
 }
 
