@@ -80,16 +80,18 @@ li {
 .navbar {
 opacity:1.0;
 background-image: none;
-
+margin-top:-41px;
 }
 
   .navbar-inner {
-    background: $grey;
+    background: $green;
+    opacity:.7;
     filter: none;
+    margin-left:23.1%;
 }
 
 .navbar .nav > li > a {
-  margin-left:50px;
+  margin-left:10px;
   text-shadow: none;
   color: #FFFFFF;
   }
