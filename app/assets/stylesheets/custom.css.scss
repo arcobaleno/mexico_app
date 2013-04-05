@@ -248,11 +248,25 @@ margin-left:50px;
 
 .member {
   border: solid 5px;
+  margin-top:15px;
 }
 
 .team {
   margin-left:10%;
   opacity:0.8;
+}
+
+.team_member_name {
+  margin-left:95px
+}
+
+.team_member_bio {
+  margin-left:95px;
+  text-align:justify;
+}
+
+.team_member_role {
+  margin-left:95px;
 }
 
 /* Event One */
@@ -265,4 +279,20 @@ margin-left:50px;
 #event_info {
   margin-top:15px;
   margin-left:50px;
+}
+
+/* Speakers */
+
+.speaker_title {
+  margin-left:39px;
+}
+
+.speaker {
+  margin-left:40px;
+  text-align:justify;
+}
+
+.speaker_image {
+  margin-top:15px;
+  border:solid 5px;
 }
