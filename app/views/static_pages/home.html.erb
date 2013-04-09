@@ -1,18 +1,30 @@
 
+
 <div class="row">
-  <div id="myCarousel" class="carousel">
-    <!-- Carousel items -->
-    <div class="carousel-inner">
-      <div class="item active">
-      	<center><%= image_tag("Banner1.png", :class => "banner") %></center>
+  <div class="back">
+    <div id="myCarousel" class="carousel slide">
+      <!-- Carousel items -->
+      <div class="carousel-inner">
+              <div class="active item">
+                <%= image_tag('Banner1.png', :class => "banner") %>
+              </div>
+              <div class="item">
+                <%= image_tag('Banner2.png', :class => "banner") %>
+              </div>
+              <div class="item">
+                <%= image_tag('Banner3.png', :class => "banner") %>
+              </div>
+              <div class="item">
+                <%= image_tag('Banner4.png', :class => "banner") %>
+              </div>
+              <div class="item">
+                <%= image_tag('Banner5.png', :class => "banner") %>
+              </div>
       </div>
-      <div class="item">
-      	<center><%= image_tag("mexico_flag2.jpg", :class => "banner" ) %></center>
-      </div>
+      <!-- Carousel nav -->
+      <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
     </div>
-    <!-- Carousel nav -->
-    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
   </div>
 </div>
 

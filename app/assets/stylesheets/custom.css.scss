@@ -147,37 +147,33 @@ footer ul li {
   margin-left: 10px;
 }
 /* Carousel */
+.back {
+  background-color:#006600;
+  opacity:.8;
+  border:solid 1px #006600;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  margin-bottom:10px;
+}
 
 .banner {
-  border:2px solid #a1a1a1;
-  background:#dddddd;
-  width:100%;
-  /* border-radius:20px;
-  -moz-border-radius:25px; /* Old Firefox */
+  border:solid 5px #006600;
 }
 
 .item {
 	margin: auto;
   position:absolute;
   z-index:-1;
-  width:600px;
-  height:100%;
 }
 .carousel {
 	margin-top:1%;
-  width:100%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom:20px;
   z-index:-2;
+  height:70%;
+  width:70%;
 }
-
-.carousel-inner {
-}
-
-.carousel-control {
-}
-
 /* Home */
 
 .box {
@@ -205,7 +201,6 @@ footer ul li {
 /* Mexico Profile */
 
 #mp {
-  font-family: bold;
   margin-right:100px;
   margin-left:10%;
   text-align:justify;
