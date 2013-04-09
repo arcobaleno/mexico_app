@@ -4,20 +4,21 @@
    <div class="navbar">
     <div class="navbar-inner">
       <ul class="nav">
-        <li class="dropdown">
-          <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#">
-          Home
-          <b class="caret"></b>
-          </a>
-          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-          <li><%= link_to "Mexico Profile", "mexico_profile" %> </li>
-          <li><%= link_to "About Babson College", "about_babson" %></li>
-          <li><%= link_to "Team", "team" %></li>
-          </ul>
+        <li>
+          <%= link_to "Home", "home" %>
+        </li>
+        </li>
+
+         <li>
+            <%= link_to "Mexico Profile", "mexico_profile" %>
         </li>
 
         <li>
-            <%= link_to "About", "about" %>
+            <%= link_to "About Babson College", "about_babson" %>
+        </li>
+
+        <li>
+            <%= link_to "About BMA", "about" %>
         </li>
 
         <li class="dropdown">
@@ -39,17 +40,10 @@
             <%= link_to "The Team", "team" %>
         </li>
 
-        <li class="dropdown">
-          <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="/page.html">
-          Contact
-          <b class="caret"></b>
-          </a>
-          <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-          <li><%= link_to "Contact Info", "contact_info" %></li>
-          <li><%= link_to "Directions", "directions" %></li>
-          </ul>
+        <li>
+          <%= link_to "Contact", "contact_info" %>
         </li>
-
+         
       </ul>
     </div>
    </div>
