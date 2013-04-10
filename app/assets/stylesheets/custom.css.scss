@@ -283,13 +283,19 @@ margin-left:50px;
   margin-left:5%;
 }
 
+#event_location {
+  margin-left:5%;
+  color:$green;
+  font-size:20px;
+}
+
 #event_info {
-  margin-top:15px;
+  margin-top:80px;
   margin-left:10px;
 }
 
 #event_image {
-margin-top:38px;
+margin-top:20px;
 border:$green 5px solid;
 }
 
