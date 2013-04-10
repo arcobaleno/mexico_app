@@ -38,7 +38,7 @@ textarea {
 /* typography */
 
 .title {
-  margin-left:10%;
+  margin-left:5%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -121,7 +121,7 @@ top:60px;
 
 footer {
   background-color:#C0C0C0;
-  height:40px;
+  height:100px;
   width:100%;
   margin-top: 45px;
   padding-top: 5px;
@@ -198,22 +198,22 @@ footer ul li {
 }
 
 #location{
-  margin-left:10%;
+  margin-left:5%;
   text-align:justify;
 }
 
 /* Contact Info */
 
 #contact-info{
-  margin-left:10%;
+  margin-left:5%;
   margin-bottom:20%;
 }
 
 /* Mexico Profile */
 
 #mp {
-  margin-right:100px;
-  margin-left:10%;
+  margin-right:30px;
+  margin-left:5%;
   text-align:justify;
 }
 
@@ -227,15 +227,15 @@ footer ul li {
 
 /* About */
 #ap {
-  margin-left:10%;
+  margin-left:5%;
   text-align:justify;
 }
 
 #about-image{
-  width:65%;
-  height:65%;
-  margin-top:10%;
-  margin-left:100px;
+  width:80%;
+  height:80%;
+  margin-top:50px;
+  margin-left:30px;
   border:solid 3px $green;
 }
 
@@ -247,7 +247,7 @@ margin-left:50px;
 }
 
 #about-babson {
-  margin-left:10%;
+  margin-left:5%;
   text-align:justify;
 }
 
@@ -280,12 +280,22 @@ margin-left:50px;
 
 #event_description {
   text-align:justify;
-  margin-left:10%;
+  margin-left:5%;
 }
 
 #event_info {
   margin-top:15px;
-  margin-left:50px;
+  margin-left:10px;
+}
+
+#event_image {
+margin-top:38px;
+border:$green 5px solid;
+}
+
+#bma_schedule {
+margin-left:2%;
+margin-top:15px;
 }
 
 /* Speakers */
