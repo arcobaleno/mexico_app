@@ -13,6 +13,7 @@ gem "paperclip", "~> 3.0"
 gem 'coffee-rails', '3.2.2'
 gem 'uglifier', '1.2.3'
 gem 'sunspot_solr'
+gem 'newrelic_rpm'
 
 group :development, :test do
   gem 'taps'
